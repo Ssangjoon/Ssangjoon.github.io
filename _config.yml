@@ -27,7 +27,7 @@ description: >-                        # used by seo meta and the atom feed
   record code
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://Ssangjoon.github.io'
+url: 'https://ssangjoon.github.io'
 
 github:
   username: Ssangjoon            # change to your github username
@@ -86,7 +86,7 @@ avatar:
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
+comments: true
   active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
