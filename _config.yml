@@ -81,7 +81,7 @@ theme_mode: dark   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/favicons/KakaoTalk_20230221_002818446_02.jpg"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
