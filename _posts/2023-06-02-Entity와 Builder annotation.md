@@ -33,9 +33,8 @@ Entity 는 동적으로 객체 생성 시 java의 Reflection API를 활용하기
 
 Entity 를 조회하기 위해 생성되는 proxy 객체는 직접 만든 객체 class를 상속하기 때문에 public이나 protected 기본 생성자를 선언해야한다.
 
-private으로 허용하면 dto 객체가 lazy fetch 같은 비동기 조회 방식 일때 일관성을 가지지 못하는 문제가 발생할 수 있음
+private으로 허용하면 dto 객체가 lazy fetch 같은 비동기 조회 방식 일때 일관성을 가지지 못하는 문제가 발생할 수 있다고 한다.
 
-고 한다. 
 
 builder를 쓰는 방식은 클래스에 붙이거나 생성자에 붙이거나인데 
 
@@ -43,7 +42,7 @@ builder를 쓰는 방식은 클래스에 붙이거나 생성자에 붙이거나�
 
 - 왜?
     
-    `@builder`는 클래스 자체 붙이거나 생성자에 붙이는 방법이 있는데,[@builder](https://github.com/builder)는 전체 생성자를 필요로함`@builder`는 `@NoArgsConstrator`어노테이션이나 다른 생성자가 존재한지 않다면 전체 생성자를 자동으로 만든다.
+    `@builder`는 클래스 자체 붙이거나 생성자에 붙이는 방법이 있는데,`@builder`는 전체 생성자를 필요로함`@builder`는 `@NoArgsConstrator`어노테이션이나 다른 생성자가 존재한지 않다면 전체 생성자를 자동으로 만든다.
     
     => `@builder`와 `@NoArgsConstrator`를 클래스에 함께 쓰면 전체 생성자가 만들어지지 않고 컴파일에러가 발생
     
