@@ -2,7 +2,7 @@
 title: spring security 초기 설정
 date: 2023-05-28 09:00:00 +0900
 categories: [개인프로젝트]
-tags: [개인프로젝트,GettingThingsDone,spring security]     # TAG names should always be lowercase
+tags: [GettingThingsDone,spring security]     # TAG names should always be lowercase
 published: true
 ---
 

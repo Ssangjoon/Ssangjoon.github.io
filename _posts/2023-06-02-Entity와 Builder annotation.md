@@ -2,7 +2,7 @@
 title: Entity와 Builder annotation
 date: 2023-06-02 10:00:00 +0900
 categories: [개인프로젝트]
-tags: [개인프로젝트,GettingThingsDone,JPA]     # TAG names should always be lowercase
+tags: [GettingThingsDone,JPA]     # TAG names should always be lowercase
 published: true
 ---
 

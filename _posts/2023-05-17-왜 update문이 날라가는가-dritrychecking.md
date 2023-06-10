@@ -2,7 +2,7 @@
 title: 왜 update문이 날아가는가? - dirtychecking
 date: 2023-05-17 17:00:00 +0900
 categories: [개인프로젝트]
-tags: [개인프로젝트,GettingThingsDone,JPA,Transaction,Curiosity]     # TAG names should always be lowercase
+tags: [GettingThingsDone,JPA,Transaction,Curiosity]     # TAG names should always be lowercase
 published: true
 ---
 
