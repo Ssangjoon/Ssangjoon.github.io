@@ -61,7 +61,7 @@ JPA 환경에서 관련 속성이 무엇이 있는지도 한번 알아보자
 - 이때 준영속 상태로 남아있는 식별자의 상태가 변경되면, persist()가 아닌 merge()발생
 - merge는 비영속 상태의 부모 엔티티를 변경했을 때 비영속 상태의 merge를 수행한다.
 
-## ****CascadeType.REMOVE****
+## **CascadeType.REMOVE**
 
 ```java
 @Entity
@@ -148,9 +148,10 @@ void cascadeType_Remove_InCaseOfTeamRemoval() {
 }
 ```
 
-- query
-    
-    ```java
+<details>
+<summary>query</summary>
+<div markdown="1">      
+    ```
     Hibernate: 
         insert 
         into
@@ -192,6 +193,10 @@ void cascadeType_Remove_InCaseOfTeamRemoval() {
         where
             id=?
     ```
+
+</div>
+</details>
+    
     
 
 delete 쿼리가 총 3번 나가는 걸 확인할 수 있다. 즉, Team(부모)가 삭제될 때 Member(자식)도 영속성 전이 옵션으로 인해 함께 삭제
@@ -225,9 +230,10 @@ void cascadeType_Remove_InCaseOfMemberRemovalFromTeam() {
 }
 ```
 
-- query
-    
-    ```java
+<details>
+<summary>query</summary>
+<div markdown="1">   
+    ```
     Hibernate: 
         insert 
         into
@@ -251,6 +257,9 @@ void cascadeType_Remove_InCaseOfMemberRemovalFromTeam() {
             (null, ?, ?)
     ```
     
+
+</div>
+</details>
 
 delete 쿼리가 전혀 나가지 않는다. 영속성 전이 삭제 옵션은 부모와 자식의 관계가 끊어졌다 해서 자식을 삭제하지 않기 때문이다.
 
@@ -296,9 +305,10 @@ public class Team {
 
 ### 이전과 동일하게 부모 엔티티를 삭제
 
-- query
-    
-    ```java
+<details>
+<summary>query</summary>
+<div markdown="1">     
+    ```
     // DML
     Hibernate: 
         insert 
@@ -336,6 +346,8 @@ public class Team {
         where
             id=?
     ```
+</div>
+</details>
     
 
 이전과는 다르게 delete 쿼리가 1번 나간다. 고아 객체 옵션은 부모와 자식의 관계가 끊어지면 자식을 고아로 취급하고 자식을 삭제하기 때문이다.
