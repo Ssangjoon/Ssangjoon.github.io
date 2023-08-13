@@ -1,6 +1,6 @@
 ---
 title: TypeScript 
-date: 2023-08-04 00:00:30 +0900
+date: 2023-08-07 00:00:30 +0900
 categories: [TypeScript]
 tags: [study, TypeScript]     # TAG names should always be lowercase
 published: false
