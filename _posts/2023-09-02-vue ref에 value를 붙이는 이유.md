@@ -3,7 +3,7 @@ title: Vue ref에 value를 붙이는 이유
 date: 2023-09-02 00:00:30 +0900
 categories: [Vue]
 tags: [study, Vue]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 Vue는 상태의 변경을 proxy로 감시한다. Proxy는 객체. (자바스크립트에는 `value(값)`과 `reference(참조)`가 있습니다.) 참조가 없는 원시타입(string,number 등)은 Proxy로 만들 수가 없다. 
 

@@ -3,7 +3,7 @@ title: 1-9 try-finally 보다 try-with-resources를 사용하라(item9)
 date: 2023-08-04 00:00:30 +0900
 categories: [Effective Java, 객체의 생성과 파괴]
 tags: [study, Effective Java]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 자바 라이브러리에는 close 메서드를 호출해 직접 닫아줘야 하는 자원이 많다. 
 InputStream, OutputSteam, java.sql.Connection 등이 좋은 예다.
