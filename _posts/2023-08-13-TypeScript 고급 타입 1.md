@@ -1,9 +1,12 @@
 ---
 title: TypeScript 고급 타입1
-date: 2023-08-13 00:00:30 +0900
-categories: [TypeScript]
-tags: [study, TypeScript]     # TAG names should always be lowercase
-published: true
+date: '2023-08-13 00:00:30 +0900'
+categories:
+  - TypeScript
+tags:
+  - study
+  - TypeScript
+published: false
 ---
 # 교차 타입(Intersection Types)
 
