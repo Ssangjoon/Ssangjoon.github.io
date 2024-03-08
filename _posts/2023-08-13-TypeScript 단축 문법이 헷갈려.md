@@ -1,9 +1,12 @@
 ---
 title: TypeScript 단축 문법이 헷갈려서 정리.
-date: 2023-08-13 00:00:30 +0900
-categories: [TypeScript]
-tags: [study, TypeScript]     # TAG names should always be lowercase
-published: true
+date: '2023-08-13 00:00:30 +0900'
+categories:
+  - TypeScript
+tags:
+  - study
+  - TypeScript
+published: false
 ---
 <aside>
 💡 논리합(||) 또는 논리곱(&&) 연산자 표현식의 평가 결과는 불리언이 아닐 수 도 있다.
