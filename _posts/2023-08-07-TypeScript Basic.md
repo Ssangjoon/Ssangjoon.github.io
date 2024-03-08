@@ -1,9 +1,12 @@
 ---
 title: TypeScript Basic
-date: 2023-08-07 00:00:30 +0900
-categories: [TypeScript]
-tags: [study, TypeScript]     # TAG names should always be lowercase
-published: true
+date: '2023-08-07 00:00:30 +0900'
+categories:
+  - TypeScript
+tags:
+  - study
+  - TypeScript
+published: false
 ---
 
 ## 타입
