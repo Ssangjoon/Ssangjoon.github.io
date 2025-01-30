@@ -3,7 +3,7 @@ title: Cascade에 대해
 date: 2023-06-14 12:00:00 +0900
 categories: [개인프로젝트]
 tags: [study,jpa]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 팀 프로젝트 시 모임 삭제를 할 경우, 
 

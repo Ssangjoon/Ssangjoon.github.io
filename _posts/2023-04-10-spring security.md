@@ -3,7 +3,7 @@ title: spring security 초기 설정
 date: 2023-05-28 09:00:00 +0900
 categories: [개인프로젝트]
 tags: [GettingThingsDone,spring security]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 
 의존성 추가 후 평소와 같이 포스트맨을 통해 테스트를 해보려는데 토큰 생성?외에 뭔가..반응이 없다.  

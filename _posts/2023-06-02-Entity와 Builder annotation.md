@@ -3,7 +3,7 @@ title: Entity와 Builder annotation
 date: 2023-06-02 10:00:00 +0900
 categories: [개인프로젝트]
 tags: [GettingThingsDone,JPA]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 
 > 엔티티 빌더인데 생성자에서 굳이 builder어노테이션을 쓰는 이유가 있을까요?

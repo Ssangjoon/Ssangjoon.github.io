@@ -4,6 +4,7 @@ categories:
   - Book
 tags:
   - study
+published: false
 ---
 ## 프로그램 오류
 
